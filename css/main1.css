@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/hd-wallpaper-landscape-long-exposure-68147.jpg");
+  margin : 0;
+  background-repeat:no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:20px;
+} 
+
+.doc{
+	margin-top:100px;
+}
+
+.count
+{
+	width: 1170px;
+	margin: 10px auto;
+}
+
+nav{
+	height: 75px;
+	background-color: #efebeb;
+}
+nav .logo{
+	width: 165px;
+	float: left;	
+}
+
+nav .logo img{
+	width: 100%;
+}
+
+.menu{
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 20px;
+	line-height: 45px;
+	color: black;
+}
+.menu li a:hover{
+	position:relative;
+	background-color:skyblue;
+}
+
+input,.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+  margin-left:10px;
+  margin-right:10px;
+}
+/* 
+ input:hover,.btn:hover {
+  opacity: 1;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+} 
+ */
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+    margin-left: 219px; 
+    margin-top: 20px;
+}
+
+.butn:hover {
+  background: #3cfc49;
+  background-image: -webkit-linear-gradient(top, #3cfc49, #3cfc49);
+  background-image: -moz-linear-gradient(top, #3cfc49, #3cfc49);
+  background-image: -ms-linear-gradient(top, #3cfc49, #3cfc49);
+  background-image: -o-linear-gradient(top, #3cfc49, #3cfc49);
+  background-image: linear-gradient(to bottom, #3cfc49, #3cfc49);
+  text-decoration: none;
+} 

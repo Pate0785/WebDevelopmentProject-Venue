@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/hd-wallpaper-landscape-long-exposure-68147.jpg");
+  margin : 0;
+  background-repeat:no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:20px;
+} 
+
+.doc{
+	margin-top:100px;
+}
+
+.count
+{
+	width: 1170px;
+	margin: 10px auto;
+}
+
+nav{
+	height: 75px;
+	background-color: #efebeb;
+}
+nav .logo{
+	width: 165px;
+	float: left;	
+}
+
+nav .logo img{
+	width: 100%;
+}
+
+.menu{
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 20px;
+	line-height: 45px;
+	color: black;
+}
+.menu li a:hover{
+	position:relative;
+	background-color:skyblue;
+}
+
+.text p{
+	background-color:lightblue;
+	display: inline-block;
+	 border-radius: 10px;
+	height:200px;
+	width:400px;
+	margin-left:480px;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0 20px;
+	color: black;
+}
